@@ -1,6 +1,6 @@
 Projeto Meu Software
 
-teste
+
 - Elaborar um software
 que:
 a)Cadastre um funcionário
