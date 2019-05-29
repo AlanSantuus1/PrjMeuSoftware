@@ -11,15 +11,18 @@ namespace MeuSoftware
         static void Main(string[] args)
         {
             string nomeCompleto;
-            int dataNascimento;
+            string dataNascimento;
             int numeroDependentes;
             string cargo;
             double salarioBruto;
             char recebeValeTransporte;
             string valetrans = ""; // Variavel auxiliar para checagem, caso o funcionário receba Vale Transporte
+            
 
 
+            
 
+            
 
             Console.WriteLine("Seja Bem-Vindo !");
 
@@ -28,7 +31,7 @@ namespace MeuSoftware
             Console.Clear();
 
             Console.WriteLine("Digite a data de nascimento do funcionário neste formato DDMMAAA (não separe os números por barras):");
-            dataNascimento = int.Parse(Console.ReadLine()); // Recebe a data de nascimento do funcionário
+            dataNascimento = Console.ReadLine(); // Recebe a data de nascimento do funcionário
             Console.Clear();
 
             Console.WriteLine("Informe o número de dependes do funcionário:");
@@ -59,7 +62,8 @@ namespace MeuSoftware
                     valetrans = "não recebe";
                     break;
             }
-                       
+
+            
 
             Console.Clear();
             Console.WriteLine();
@@ -69,9 +73,12 @@ namespace MeuSoftware
             Console.WriteLine("Seu cargo na empresa é: {0} !", cargo);
             Console.WriteLine("Seu salário bruto é: {0} !", salarioBruto);
             Console.WriteLine("Você {0} Vale Transporte !", valetrans);
-
+            
 
             Console.ReadKey();
+
+
+
         }
     }
 }
