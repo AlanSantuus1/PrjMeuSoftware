@@ -60,6 +60,7 @@ namespace MeuSoftware
                     break;
             }
                        
+
             Console.Clear();
             Console.WriteLine();
             Console.WriteLine("Seja Bem Vindo {0} !", nomeCompleto);
