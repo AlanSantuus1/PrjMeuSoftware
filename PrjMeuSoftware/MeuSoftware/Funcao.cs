@@ -18,6 +18,29 @@ namespace MeuSoftware
 
             return idade;
         }
+        public double CalcularINSS(double salarioBruto)
+        {
+            double imposto;//Valor do imposto de acordo com o valor do salario bruto
+
+            if (salarioBruto <= 1693.72)
+            {
+                imposto = salarioBruto * 0.08;
+            }
+            else if (salarioBruto > 1693.72 && salarioBruto <= 2822.90)
+            {
+                imposto = salarioBruto * 0.08;
+            }
+            else if (salarioBruto > 2822.90 && salarioBruto <= 5645.80)
+            {
+                imposto = salarioBruto * 0.11;
+            }
+            else
+            {
+                imposto = 621.04;
+            }
+
+            return imposto;
+        }
 
     }
 }

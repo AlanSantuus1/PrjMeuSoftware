@@ -12,3 +12,10 @@ C:\Users\ferol\Desktop\Projeto Meu Software\PrjMeuSoftware\MeuSoftware\obj\Debug
 C:\Users\ferol\Desktop\Projeto Meu Software\PrjMeuSoftware\MeuSoftware\obj\Debug\MeuSoftware.csproj.CoreCompileInputs.cache
 C:\Users\ferol\Desktop\Projeto Meu Software\PrjMeuSoftware\MeuSoftware\obj\Debug\MeuSoftware.exe
 C:\Users\ferol\Desktop\Projeto Meu Software\PrjMeuSoftware\MeuSoftware\obj\Debug\MeuSoftware.pdb
+C:\Users\Vanessa\Desktop\OPA\PrjMeuSoftware\PrjMeuSoftware\MeuSoftware\bin\Debug\MeuSoftware.exe.config
+C:\Users\Vanessa\Desktop\OPA\PrjMeuSoftware\PrjMeuSoftware\MeuSoftware\bin\Debug\MeuSoftware.exe
+C:\Users\Vanessa\Desktop\OPA\PrjMeuSoftware\PrjMeuSoftware\MeuSoftware\bin\Debug\MeuSoftware.pdb
+C:\Users\Vanessa\Desktop\OPA\PrjMeuSoftware\PrjMeuSoftware\MeuSoftware\obj\Debug\MeuSoftware.csprojAssemblyReference.cache
+C:\Users\Vanessa\Desktop\OPA\PrjMeuSoftware\PrjMeuSoftware\MeuSoftware\obj\Debug\MeuSoftware.csproj.CoreCompileInputs.cache
+C:\Users\Vanessa\Desktop\OPA\PrjMeuSoftware\PrjMeuSoftware\MeuSoftware\obj\Debug\MeuSoftware.exe
+C:\Users\Vanessa\Desktop\OPA\PrjMeuSoftware\PrjMeuSoftware\MeuSoftware\obj\Debug\MeuSoftware.pdb
