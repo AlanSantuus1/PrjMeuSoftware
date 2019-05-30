@@ -49,10 +49,9 @@ namespace MeuSoftware
 
             return idade;
         }
-
         public double CalcularINSS(double salarioBruto)
         {
-            double imposto; // Valor do imposto de acordo com o valor do salario bruto
+            double imposto;//Valor do imposto de acordo com o valor do salario bruto
 
             if (salarioBruto <= 1693.72)
             {
@@ -73,6 +72,15 @@ namespace MeuSoftware
 
             return imposto;
         }
+        public double CalcularFGTS(double salarioBruto)
+        {
+            double descontoPorMes;//Valor descontado por mês do FGTS
+
+            descontoPorMes = salarioBruto * 0.08;
+
+            return descontoPorMes;
+        }
+               
 
     }
 }
