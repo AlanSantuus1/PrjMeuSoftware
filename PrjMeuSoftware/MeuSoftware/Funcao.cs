@@ -28,7 +28,7 @@ namespace MeuSoftware
             }
             else if (salarioBruto > 1693.72 && salarioBruto <= 2822.90)
             {
-                imposto = salarioBruto * 0.08;
+                imposto = salarioBruto * 0.09;
             }
             else if (salarioBruto > 2822.90 && salarioBruto <= 5645.80)
             {
@@ -40,6 +40,14 @@ namespace MeuSoftware
             }
 
             return imposto;
+        }
+        public double CalcularFGTS(double salarioBruto)
+        {
+            double descontoPorMes;//Valor descontado por mês do FGTS
+
+            descontoPorMes = salarioBruto * 0.08;
+
+            return descontoPorMes;
         }
 
     }
