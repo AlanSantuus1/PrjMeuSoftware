@@ -36,7 +36,7 @@ namespace MeuSoftware
 
                 try // Falta gerar um loop para permanecer na questão até que seja dada a resposta certa
                 {
-                    Console.WriteLine("Digite a data de nascimento do funcionário neste formato DD/MM/AAA (não separe os números por barras):");
+                    Console.WriteLine("Digite a data de nascimento do funcionário neste formato DD/MM/AAA:");
                     dataNascimento = DateTime.Parse(Console.ReadLine()).ToString("dd/MM/yyyy"); // Recebe a data de nascimento do funcionário 
                     Console.Clear();
                 }
@@ -94,7 +94,7 @@ namespace MeuSoftware
             Console.WriteLine("Você tem {0} anos de idade ", objFuncao.CalcularIdade(DateTime.Parse(dataNascimento), hoje)); // faz o cálculo da idade do funcionário
             Console.WriteLine("Você tem {0} dependente(s) !", numeroDependentes);
             Console.WriteLine("Seu cargo na empresa é: {0} !", cargo);
-            Console.WriteLine("Seu salário bruto é: {0} !", salarioBruto);
+            Console.WriteLine("Seu salário bruto é: {0} !",  salarioBruto);
             Console.WriteLine("Você {0} Vale Transporte !", valetrans);
 
 
