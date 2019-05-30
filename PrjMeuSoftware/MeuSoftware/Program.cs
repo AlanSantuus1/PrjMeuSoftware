@@ -94,7 +94,9 @@ namespace MeuSoftware
             Console.WriteLine("Você tem {0} anos de idade ", objFuncao.CalcularIdade(DateTime.Parse(dataNascimento), hoje)); // faz o cálculo da idade do funcionário
             Console.WriteLine("Você tem {0} dependente(s) !", numeroDependentes);
             Console.WriteLine("Seu cargo na empresa é: {0} !", cargo);
-            Console.WriteLine("Seu salário bruto é: {0} !",  salarioBruto);
+            Console.WriteLine("Seu salário bruto é: {0} !", salarioBruto);
+            Console.WriteLine("O valor do INSS: {0}", objFuncao.CalcularINSS(salarioBruto));
+            Console.WriteLine("O valor do IRRF é {0} !", objFuncao.CalcularIRRF(objFuncao.CalcularINSS(salarioBruto) - salarioBruto));
             Console.WriteLine("Você {0} Vale Transporte !", valetrans);
 
 
