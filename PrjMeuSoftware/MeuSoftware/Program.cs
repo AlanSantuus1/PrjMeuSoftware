@@ -96,6 +96,16 @@ namespace MeuSoftware
             Console.WriteLine("Seu cargo na empresa é: {0} !", cargo);
             Console.WriteLine("Seu salário bruto é: {0} !", salarioBruto);
             Console.WriteLine("O valor do INSS: {0}", objFuncao.CalcularINSS(salarioBruto));
+
+            if (objFuncao.CalcularIRRF(salarioBruto - objFuncao.CalcularINSS(salarioBruto)) == 0)
+            {
+                Console.WriteLine("O valor do IRRF é: Isento");
+            }
+            else
+            {
+                Console.WriteLine("O valor do IRRF é: {0} !", salarioBruto);
+            }
+            
             Console.WriteLine("O valor do FGTS é: {0}", objFuncao.CalcularFGTS(salarioBruto));
             Console.WriteLine("Você {0} Vale Transporte !", valetrans);
 
